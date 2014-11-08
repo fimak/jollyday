@@ -1,0 +1,1 @@
+php /wwwroot/jollyday.ru/wwwroot/protected/yiic moneyback

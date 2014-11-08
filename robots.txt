@@ -1,0 +1,23 @@
+User-agent: *
+Crawl-delay: 10
+# directories
+Disallow: /images/
+Disallow: /js/
+Disallow: /photo/
+Disallow: /pie/
+Disallow: /protected/
+Disallow: /themes/
+Disallow: /yii/
+
+# files
+Disallow: /api.php
+Disallow: /backend.php
+# Paths (clean URLs)
+Disallow: /toprated/
+Disallow: /people/
+Disallow: /error/
+Disallow: /badbrowser/
+# Paths (no clean URLs)
+Disallow: *?*
+Disallow: /site/ 
+Host: jollyday.ru

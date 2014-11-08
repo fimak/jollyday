@@ -1,0 +1,158 @@
+#mainmenu ul li:hover{
+    -pie-background: rgba(36,157,176, 0.48);
+}
+#mainmenu ul li.active{
+    -pie-background: rgba(124,218,233, 0.84);
+}
+
+.light-blue.button{
+    border: 1px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #798b90;;
+    border-bottom-color: #afdbe8;
+    z-index: 99;
+    position: relative;
+    
+}
+.medium-blue.button{
+    border: 1px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #a9c9d2;
+    border-bottom-color: #c4e5f1;
+}
+
+.orange.button, .orange.button:hover{
+    border: 1px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #ffffff;
+    border-bottom-color: #df935d;
+}
+
+.button-round{
+    border: 1px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #a9c9d2;
+    border-bottom-color: #c1e3ee;
+}
+
+.editalbum{
+    border-radius: 15px 0px 0px 15px;
+}
+.addphoto{
+    border-radius: 0px 15px 15px 0px;
+}
+#scrolltop{
+    border-radius: 0px 14px 14px 0px;
+}
+#faceribbon-button-account{
+    position: relative;
+    border: 1px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: 1px solid #ffffff;
+    border-bottom-color: transparent;
+    behavior: url("/pie/PIE.htc");
+}
+
+.button-square{
+    position: relative;
+}
+
+.photo-wrapper{
+    -pie-box-shadow: 0 0 0px 2px rgba(215,215,215,0.2);
+}
+
+#photo-uploader-wrapper{
+    border-radius: 0 0 12px 12px;
+    -pie-box-shadow: 0px 3px 4px 0 rgba(215,215,215,0.2);
+}
+
+#mainmenu ul{
+    list-style-type: disc;
+}
+
+.tooltip-meetmethod{
+    border:none;
+    position: relative;
+}
+
+.new-messages,
+.orange.button,
+.orange.button:hover,
+.button,
+.light-blue.button,
+.light-blue.button:hover,
+.medium-blue.button,
+.medium-blue.button:hover,
+#mainmenu ul li.active,
+#mainmenu ul li:hover,
+#mainmenu ul li,
+#mainmenu ul,
+#mainmenu,
+.button-round,
+.editalbum,
+#scrolltop,
+.button-square,
+.nogifts-notice,
+.dialog-meetmethod-wrapper,
+.photo-wrapper,
+.qq-upload-button,
+#photo-uploader-wrapper,
+#upload-progress,
+.photo-uploader-progress-wrapper,
+.uploadify-button,
+#faceribbon-button-account,
+.gift-list-tab-button,
+.big-button,
+.fancybox-skin h2
+{
+    behavior: url("/pie/PIE.htc");
+}
+
+.gift-list-tab-button{
+    position: relative;
+}
+
+.big-button{
+    position: relative;
+}
+
+#confirmBox{
+        *display: inline;
+        *zoom: 1;
+}
+
+#confirmOverlay:after {
+        *display: inline;
+        *zoom: 1;
+}
+
+.confirmbox_valignfix {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+        width: 0;
+        height: 100%;
+        vertical-align: middle
+}
+
+ul.questionary li.nobackground{
+    background: none;
+}
+
+.fancybox-skin{
+    box-shadow: 0 0 3px 5px rgba(54,59,68,0.4);
+}
+
+#confirmBox{
+    box-shadow: 0 0 3px 5px rgba(54,59,68,0.4);
+}
+
+#confirmOverlay{
+    -pie-background: rgba(0,0,0,0.7);
+}
+

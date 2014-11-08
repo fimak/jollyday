@@ -1,0 +1,239 @@
+@import url("reset.css");
+
+
+/*------------ <helpers> -----------*/
+.hide{
+    display: none;
+}
+
+.overhide{
+    display: none !important;
+}
+
+.show{
+    display: block;
+}
+
+.center-position{
+    margin: 0 auto;
+}
+
+.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.sparse{
+    line-height: 24px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.color-orange{
+    color: #ff6600;
+}
+
+.color-blue{
+    color: #0095c2;
+}
+
+.color-grey{
+    color: #505050;
+}
+
+/*------------ </helpers> -----------*/
+
+/*------------ <layout> -----------*/
+html, body{
+  height: 100%;
+  min-width: 960px;
+}
+/*хак для ие-6 (прижатие футера к низу)*/
+* html #main{
+  height: 100%;
+}
+
+#main {
+  min-height: 100%;
+}
+
+#header #header-inner{
+  min-width: 960px;
+  max-width: 1137px;
+  margin: 0 auto;
+  position: relative;
+}
+#footer-inner {
+  padding: 0 29px 0 31px;
+  min-width: 900px;
+  max-width: 1077px;
+  margin: 0 auto;
+  position: relative;
+
+}
+#footer {
+  height: 48px;
+  background: url(../img/footer-background.jpg);
+}
+
+#content{
+  min-height: 600px;
+}
+
+/*------------ </layout> -----------*/
+
+/*------------ <header> -----------*/
+
+#header {
+    height: 140px;
+    background: url(../img/header-background1.jpg) center top;
+}
+#header-top {
+    height: 150px;
+    text-align: center;
+}
+.header-top-block {
+    display: inline-block;
+}
+#logo-slogan-wrapper {
+    padding: 30px 0 0 25px;
+    text-align: left;
+    width: 30%;
+    float: left;
+}
+#site-slogan {
+    color: white;
+    font-size: 11px;
+}
+#login-form-wrapper {
+    background: url("../img/login-form-background.png");
+    width: 285px;
+    min-height: 64px;
+    padding: 11px;
+    float: right;
+    margin-top: 17px;
+    margin-right: 10px;
+    text-align: left;
+    display: inline-block;
+}
+.login-form-phone{
+    width: 130px;
+    height: 25px;
+    margin-right: 7px;
+    padding-left: 5px;
+    border: 1px solid rgb(147,147,147);
+}
+.login-form-password{
+    width: 130px;
+    height: 25px;
+    padding-left: 5px;
+    border: 1px solid rgb(147,147,147);
+}
+.login-form-button{
+    width: 63px;
+    height: 24px;
+    margin-top: 11px;
+    margin-right: 8px;
+    border: 0;
+    cursor: pointer;
+    background: url("../img/login_button_sprite.png") no-repeat 0 -24px;
+    font: 400 13px/24px Arial;
+    text-shadow: 1px 1px #FFCE49;
+
+}
+.login-form-button:hover{
+    background-position: 0 -48px;
+}
+.login-form-button.disabled-login-button{
+    background-position: 0 0;
+    cursor: default;
+    text-shadow: none;
+}
+
+#login-form-wrapper a {
+  color: #1142cf;
+}
+
+.login-form-error{
+    color: red;
+    font-style: italic;
+}
+
+/*--<content>--*/
+#content-inner {
+    min-width: 900px;
+    max-width: 1077px;
+    margin: 0 auto;
+    padding: 36px 29px 48px 31px;
+}
+#activation-mail{
+    font-size: 24px;
+    vertical-align: center;
+    text-align: center;
+}
+
+#mail-activation-button{
+    width: 200px;
+    display: inline-block;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    text-shadow: 1px 1px #ffce49;
+    border: 0;
+    
+    margin-top: 15px;
+    -webkit-box-shadow: 0px 1px 4px rgba(50, 50, 50, 0.6);
+    -moz-box-shadow:    0px 1px 4px rgba(50, 50, 50, 0.6);
+    box-shadow:         0px 1px 4px rgba(50, 50, 50, 0.6);
+    background: url("../img/register-button.png");
+    height: 35px;
+    font: normal normal 400 13px/35px Arial;
+    cursor: pointer;
+}
+#mail-activation-button a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*----</content>---*/
+
+/*footer*/
+#footer {
+}
+.footer-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#copyright {
+  color: #cccccc;
+  line-height: 48px;
+}
+#footer-menu {
+  width: 60%;
+}
+#footer-menu li {
+  display: inline-block;
+  margin-left: 10%;
+}
+#footer-menu li a {
+  color: #fff;
+  line-height: 48px;
+}
+#globus {
+  float: right;
+  margin-top: 10px;
+}

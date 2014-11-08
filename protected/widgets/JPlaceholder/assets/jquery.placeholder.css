@@ -1,0 +1,12 @@
+::-webkit-input-placeholder {
+	color: #999;
+	font:12px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+:-moz-placeholder {
+	color: #999;
+	font:12px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}
+.placeholder {
+	color: #999;
+	font:12px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+}

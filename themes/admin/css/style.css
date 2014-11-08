@@ -1,0 +1,17 @@
+body{
+    padding-top:50px;
+}
+
+.backend-photo-wrapper{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+backend-photo-wrapper a{
+    margin: 3px 0;
+}
+
+#admin-user-ajax-container{
+    margin-bottom: 50px;
+    text-align: justify;
+}

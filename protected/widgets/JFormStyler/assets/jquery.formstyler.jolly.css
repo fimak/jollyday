@@ -1,0 +1,184 @@
+.checkbox {
+	position: relative;
+	width: 14px;
+	height: 14px;
+	background: url('img/form_checkbox.png') no-repeat 0 -14px;
+	cursor: pointer;
+        vertical-align: middle;
+}
+.checkbox:hover{
+        background-position : -14px -14px;
+}
+.checkbox.checked{
+        background-position: 0 0;
+}
+.checkbox.checked.focused, .checkbox.checked:hover {
+	background-position : -14px 0;
+}
+.checkbox.disabled{
+	background-position : -28px -14px;
+        cursor: default
+}
+.checkbox.disabled.checked{
+	background-position : -28px 0px;
+        cursor: default
+}
+
+
+.radio {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    background: url('img/form_radio.png') no-repeat 0 -14px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.radio:hover{
+        background-position : -14px -14px;
+}
+.radio.checked{
+        background-position: 0 0;
+}
+.radio.checked.focused, .radio.checked:hover {
+	background-position : -14px 0;
+}
+.radio.disabled{
+	background-position : -28px -14px;
+        cursor: default
+}
+.radio.disabled.checked{
+	background-position : -28px 0px;
+        cursor: default
+}
+
+
+.selectbox {
+	vertical-align: middle;
+	cursor: pointer;
+        margin-right: 1px;
+}
+.selectbox .select {
+        position: relative;
+        height: 23px;
+        font: normal normal 400 13px/23px Arial;
+        cursor: pointer;
+        border: 1px solid #bdcfd2;
+        width: 100%;
+}
+.selectbox .select:active {
+	background: #F5F5F5;
+	box-shadow: inset 1px 1px 3px #DDD;
+}
+.selectbox.focused .select {
+	border: 1px solid #5794BF;
+}
+.selectbox.disabled .select {
+	border-color: #CCC;
+	background: #F5F5F5;
+	box-shadow: none;
+	color: #888;
+}
+.selectbox .select .text {
+        background-color: #ffffff;
+	display: block;
+        margin-right: 1px;
+        height: 21px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+        text-indent: 3px;
+	border-top: 1px solid #e9f3f4;
+        border-bottom: 1px solid #e9f3f4;
+        border-left: 1px solid #e9f3f4;
+}
+.selectbox .trigger {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 21px;
+	height: 21px;
+	border-top: 1px solid #e9f3f4;
+        border-bottom: 1px solid #e9f3f4;
+        border-right: 1px solid #e9f3f4;
+}
+.selectbox .trigger .arrow {
+        display: block;
+	width: 17px;
+	height: 17px;
+        background: url('img/form_select.png') no-repeat 0 0;
+        position: absolute;
+        top:2px;
+        right:2px;
+}
+.selectbox.disabled .arrow {
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+.selectbox .dropdown {
+	top: 25px;
+	margin: 0;
+	border: 1px solid #bdcfd2;
+        border-top: none;
+        background: #fff;
+        font: normal normal 400 13px/20px Arial;
+        max-height: 200px;
+}
+.selectbox li {
+	padding: 1px 3px;
+	color: #231F20;
+        margin: 1px;
+        line-height: 20px;
+        min-height: 20px;
+}
+.selectbox li.selected {
+	background: rgb(230,244,248);
+}
+.selectbox li:hover {
+	background: rgb(230,244,248);
+}
+.selectbox li.disabled {
+	color: #AAA;
+}
+.selectbox li.disabled:hover {
+	background: none;
+}
+
+
+.selectMultiple {
+	padding: 1px;
+	border: 1px solid #CCC;
+	border-bottom-color: #B3B3B3;
+	border-radius: 4px;
+	box-shadow: inset 1px 1px #F1F1F1, 0 1px 2px rgba(0,0,0,0.1);
+	color: #333;
+	font: 14px/18px Arial, Tahoma, sans-serif;
+	cursor: default;
+}
+.selectMultiple.disabled {
+	border-color: #CCC;
+	background: #F5F5F5;
+	box-shadow: none;
+	color: #888;
+}
+.selectMultiple li {
+	padding: 3px 9px 4px;
+	list-style: none;
+}
+.selectMultiple li:first-child {
+	border-radius: 3px 3px 0 0;
+}
+.selectMultiple li:last-child {
+	border-radius: 0 0 3px 3px;
+}
+.selectMultiple li.selected {
+	background: #08C;
+	color: #FFF;
+}
+.selectMultiple li.disabled {
+	color: #AAA;
+}
+.selectMultiple.disabled li.selected,
+.selectMultiple li.selected.disabled {
+	background: #CCC;
+	color: #FFF;
+}

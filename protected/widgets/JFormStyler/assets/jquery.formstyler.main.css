@@ -1,0 +1,97 @@
+#search-form .selectbox,
+#support-form .selectbox{
+	vertical-align: middle;
+	cursor: pointer;
+        margin-right: 1px;
+}
+#search-form .selectbox .select, 
+#support-form .selectbox .select{
+        position: relative;
+        height: 25px;
+        font: normal normal 400 13px/25px Arial;
+        cursor: pointer;
+        border: 1px solid #939393;
+        width: 100%;
+        background-color: #fff;
+}
+#search-form .selectbox .select:active,
+#support-form .selectbox .select:active{
+	background-color: #F5F5F5;
+}
+#search-form .selectbox.focused .select,
+#support-form .selectbox.focused .select{
+	border: 1px solid #5794BF;
+}
+#search-form .selectbox.disabled .select,
+#support-form .selectbox.disabled .select{
+	border-color: #CCC;
+	background: #F5F5F5;
+	color: #888;
+}
+#search-form .selectbox .select .text,
+#support-form .selectbox .select .text{
+	display: block;
+        height: 25px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+        text-indent: 3px;
+        color: #000;
+}
+#search-form .selectbox .trigger,
+#support-form .selectbox .trigger{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 24px;
+	height: 25px;
+}
+#search-form .selectbox .trigger .arrow,
+#support-form .selectbox .trigger .arrow{
+        display: block;
+	width: 6px;
+	height: 4px;
+        position: absolute;
+        top:11px;
+        right:9px;
+        background: url("img/select_arrow_black.png") no-repeat;
+}
+#search-form .selectbox.disabled .arrow,
+#support-form .selectbox.disabled .arrow{
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+}
+#search-form .selectbox .dropdown,
+#support-form .selectbox .dropdown{
+	top: 27px;
+	margin: 0;
+	border: 1px solid #939393;
+        border-top: none;
+        background: #fff;
+        font: normal normal 400 13px/20px Arial;
+        max-height: 200px;
+}
+#search-form .selectbox li,
+#support-form .selectbox li{
+	padding: 1px 3px;
+	color: #231F20;
+        margin: 1px;
+        line-height: 20px;
+        min-height: 20px;
+}
+#search-form .selectbox li.selected,
+#support-form .selectbox li.selected{
+	background: #ddd;
+}
+#search-form .selectbox li:hover,
+#support-form .selectbox li:hover{
+	background: #ddd;
+}
+#search-form .selectbox li.disabled,
+#support-form .selectbox li.disabled{
+	color: #AAA;
+}
+#search-form .selectbox li.disabled:hover,
+#support-form .selectbox li.disabled:hover{
+	background: none;
+}

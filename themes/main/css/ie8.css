@@ -1,0 +1,109 @@
+.light-blue.button{
+    border: 1px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #798b90;;
+    border-bottom-color: #afdbe8;
+    z-index: 99;
+    position: relative;
+    
+}
+.medium-blue.button{
+    border: 1px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #a9c9d2;
+    border-bottom-color: #c4e5f1;
+}
+
+.orange.button, .orange.button:hover{
+    border: 1px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #ffffff;
+    border-bottom-color: #df935d;
+}
+
+.button-round{
+    border: 1px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: #a9c9d2;
+    border-bottom-color: #c1e3ee;
+}
+
+#scrolltop{
+    border-radius: 0px 14px 14px 0px;
+}
+.button-faceribbon{
+    position: relative;
+    border: 1px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: 1px solid #ffffff;
+    border-bottom-color: transparent;
+    behavior: url("/pie/PIE.htc");
+}
+
+.button-square{
+    position: relative;
+}
+
+.photo-wrapper{
+    -pie-box-shadow: 0 0 0px 2px rgba(215,215,215,0.2);
+}
+#search-button,
+span.selected,
+#register-button-wrapper button
+{
+    position: relative;
+}
+#select-gender-wrapper a{
+    margin: 2px 0;
+}
+.filter-field-wrapper label{
+    font-weight: bold;
+}
+
+#login-form-wrapper input[type="text"], #login-form-wrapper input[type="password"]{
+    padding: 0;
+    height: 25px;
+    font-size: 12px;
+    line-height: 25px;
+}
+#register-button-wrapper button{
+    height: 33px;
+    line-height: 33px;
+    font-size: 13px;
+}
+
+#intmdregbtn button{
+    position: relative;
+}
+
+.orange.button,
+.orange.button:hover,
+.button,
+.light-blue.button,
+.light-blue.button:hover,
+.button-round,
+#scrolltop,
+.button-square,
+.nogifts-notice,
+.photo-wrapper,
+#register-button-wrapper button,
+#search-button,
+span.selected
+{
+    behavior: url("/pie/PIE.htc");
+}
+
+.tooltip-meetmethod{
+    border:none
+}
+ul.questionary li.nobackground{
+    background: none;
+}
+.fancybox-skin-jolly{
+    box-shadow: 0 0 3px 5px rgba(54,59,68,0.4);
+}
